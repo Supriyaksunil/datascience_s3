@@ -1,1 +1,1 @@
-Data science lab programs
+Data science and Machine learning lab programs
