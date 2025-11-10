@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+marks=list(map(int,input("Enter marks of the students:").split()))
+bins=[10,20,30,40,50,60,70,80,90,100]
+rollnos=[1,2,3,4,5,6,7,8]
+plt.scatter(marks,rollnos,color='blue',marker='o')
+plt.xlabel("marks")
+plt.ylabel("roll nos")
+plt.title("Scatterplot of students mark")
+plt.show()
